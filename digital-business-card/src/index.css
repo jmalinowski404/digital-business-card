@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;400;500;600&display=swap');
+
+* {
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+}
+
+html, body {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #282828;
+  padding-left: 500px;
+  padding-top: 10px;
+}
+
+.container {
+  background-color: #152238;
+  width: 300px;
+  height: auto;
+  border-radius: 30px;
+}
+
+img {
+  width: 100%;
+  height: 300px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.name {
+  color: #DEEBF8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.profession {
+  color: #f9ddb1;
+  font-weight: 300;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -20px;
+}
+
+.personal-website {
+  color: #DEEBF8;
+  font-weight: 300;
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-info {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 50px;
+  padding-top: 0px;
+}
+
+ul {
+  list-style: none;
+}
+
+.email {
+  font-weight: 600;
+  background-color: #DEEBF8;
+  padding: 10px;
+  border-radius: 7px;
+}
+
+.email::before {
+  content: "\2709";
+  padding-right: 10px;
+}
+
+.linkedin {
+  font-weight: 600;
+  background-color: #3c8ba1;
+  padding: 10px;
+  border-radius: 7px;
+  color: #DEEBF8;
+}
+
+.linkedin::before {
+  content: "\004C";
+  padding-right: 10px;
+}
+
+.title {
+  color: #DEEBF8;
+  font-weight: 600;
+  font-size: 24px;
+  display: flex;
+  padding-left: 20px;
+}
+
+.text {
+  color: #DEEBF8;
+  font-weight: 400;
+  font-size: 12px;
+  padding-left: 20px;
+  margin-top: -15px;
+  padding-bottom: 10px;
+}
+
+.footer {
+  height: auto;
+  background-color: #0a0f19;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+.social-media {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 40px;
+  padding-left: 40px;
+}
+
+.twitter::before {
+  content: "\0054";
+  color: #DEEBF8;
+  font-weight: 600;
+  font-size: 30px;
+}
+
+.facebook::before {
+  content: "\0046";
+  color: #DEEBF8;
+  font-weight: 600;
+  font-size: 30px;
+}
+
+.instagram::before {
+  content: "\0049";
+  color: #DEEBF8;
+  font-weight: 600;
+  font-size: 30px;
+}
+
+.github::before {
+  content: "\0047";
+  color: #DEEBF8;
+  font-weight: 600;
+  font-size: 30px;
+}
